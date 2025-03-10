@@ -1,6 +1,6 @@
 # intro_arduino
 
-Bonjour,  si vous souhaitez commencer à programmer un arduino, peut importe lequel, vous pouvez suivre ce qui est ci dessous. 
+Bonjour,  si vous souhaitez commencer à programmer un arduino, peu importe lequel, vous pouvez suivre ce qui est ci dessous. 
 
 ## explication des broches 
 Les broches standards 
