@@ -26,7 +26,7 @@ quasiement toutes les broches ont ce qu'on nomme des "alternates".  C'est à dir
 - Serial.begin(9600) : definir le port serie et sa vitesse
 - Serial.print("Valeur : ") : affiche "Valeur : " sur le port serie mais ne retourne pas à la ligne 
 - Serial.print("Valeur : ") : affiche "Valeur : " sur le port serie puis retourne à la ligne
-- 
+  
 ## le squelette minimal et un exemple 
 - au debut du programme
   - on peut avoir des includes pour étendre les fonctions de base, comme du SPI ou I2C
@@ -61,19 +61,16 @@ void loop() {
   inr interValue = digitalRead(interPin) // llit la valeur 
 
   // Traitement des données lues
-  int delayTime = resisPin
+  int delayTime = potValue
 
   // Action sur les composants 
   digitalWrite(ledPin, HIGH);
   delay(delayTime);
-  digitalWrite(ledPin, LOW);
-  delay(delayTime);
 
   // Affichage des données sur le port série
-  Serial.print("Valeur du potentiomètre : ");
-  Serial.println(potValue);
+  Serial.print("valeur de l'interrupteur  : ");
+  Serial.println(interValue);
 
-  // Ajout d'un délai pour éviter une lecture trop rapide
   delay(500);
 }
 
@@ -94,7 +91,8 @@ void loop() {
   - sur le terminal serie, afficher l'état de la led 
 
 <spoiler>
-  ```
+ 
+ ```
 const int ledPin = 1;
 
 void setup() {
@@ -109,8 +107,9 @@ void loop() {
   digitalWrite(ledPin, LOW);
   Serial.println("LED éteinte");
   delay(1000);
-  ```
+```
 </spoiler>
+
 
 ### lire la valeur d'une résistance variable 
 
