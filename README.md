@@ -1,6 +1,8 @@
 # intro_arduino
 
 Bonjour,  si vous souhaitez commencer à programmer un arduino, peu importe lequel, vous pouvez suivre ce qui est ci dessous. 
+Si vous voulez explorer l'arduino, il y a un site assez sympa : https://fr.vittascience.com/learn/tutorial.php?id=911/prise-en-main-de-la-carte-arduino-uno-et-de-l-interface-vittascience 
+
 
 ## explication des broches 
 Les broches standards 
@@ -80,6 +82,10 @@ void loop() {
 }
 
 ```
+
+## exemple de cablage
+
+![exemple de cablaage](https://github.com/tcccorp/intro_arduino/blob/main/images/exemple_cablage.png)
 
 ## quelques notes
   - LOW : état de sortie ou d'entrée à 0
