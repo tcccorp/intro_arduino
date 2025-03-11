@@ -16,8 +16,7 @@ quasiement toutes les broches ont ce qu'on nomme des "alternates".  C'est à dir
  - I2C
  - SPI
  - PWM
-
-[[https://github.com/tcccorp/intro_arduino/blob/main/images/pinout_arduino.png|alt=pinout_arduino_nano]]   
+![pinout_arduino_nano](https://github.com/tcccorp/intro_arduino/blob/main/images/pinout_arduino.png)
 
 ## quelques commandes 
 - delay(1000) : permet de faire une pause d'une seconde
